@@ -7,6 +7,7 @@ import { videoBlockSchema } from '@/components/blocks/video';
 import { calloutBlockSchema } from '@/components/blocks/callout';
 import { statsBlockSchema } from '@/components/blocks/stats';
 import { ctaBlockSchema } from '@/components/blocks/call-to-action';
+import { propertiesBlockSchema } from '@/components/blocks/properties'; // Add this import
 
 const Page: Collection = {
   label: 'Pages',
@@ -40,6 +41,7 @@ const Page: Collection = {
         contentBlockSchema,
         testimonialBlockSchema,
         videoBlockSchema,
+        propertiesBlockSchema, // Add this to the templates array
       ],
     },
   ],
